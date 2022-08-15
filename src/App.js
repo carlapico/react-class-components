@@ -12,7 +12,7 @@ class App extends Component {
         <header className="App-header">
             components go here.
             <br />
-            <FunctionalComponents count={count}/>
+            <FunctionalComponents passCount={count}/>
             <ClassComponent count={count}/> 
         </header>
       </div>
