@@ -3,7 +3,7 @@ import ClassComponent from './ClassComponent';
 import FunctionalComponents from './FunctionalComponents';
 import './App.css';
 
-let count = 1 // bad practice to declasre it outside
+let count =  1 // bad practice to declasre it outside
 class App extends Component {
 
   render() {
@@ -13,7 +13,7 @@ class App extends Component {
             components go here.
             <br />
             <FunctionalComponents count={count}/>
-            <ClassComponent /> 
+            <ClassComponent count={count}/> 
         </header>
       </div>
     );

@@ -4,7 +4,7 @@ function FunctionalComponents ({count}) {
     return (
         <>
             OMG This is so FunctionalComponents
-            FunctionalComponents{count}
+            FunctionalComponents {count}
         </>
     )
 }
